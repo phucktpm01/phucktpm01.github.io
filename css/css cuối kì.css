@@ -1,0 +1,260 @@
+#container {
+    background: #fff;
+    width: 1250px;
+    border: 1px solid white;
+    margin: 0px auto;
+}
+
+nav {
+    height: 30px;
+    width: 330px;
+    background: #007ba7;
+    animation-name: backgroundColorPalette;
+    justify-content: center;
+    align-items: center;
+    float: left;
+}
+
+header>ul>li {
+    display: inline-block;
+    padding: 0 20px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #FF6651;
+}
+
+header>ul {
+    
+    border-top: 2px dashed red;
+    border-bottom: 2px dashed red;
+    background-color: #EEEEEE;
+    position: absolute;
+    width: 1070px;
+    top: 400px;
+}
+
+.menu>ul>li {
+    float: left;
+    padding: 0 20px;
+    position: relative;
+    display: inline-table;
+    font-size: 20px;
+    font-weight: bold;
+    transition: background-color 1s ease-in-out;
+    color: #007ba7;
+}
+
+.menu>ul>li:hover {
+    background-color:white;
+    color:red;
+}
+
+.menu ul li a {
+    color: #dddd;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+#cc {
+    color: black !important;
+}
+.menu-cc:hover .cc_1{
+    display: block;
+}
+.cc_1::before{
+    position: absolute;
+    content: "";
+    width: 130px;
+    height: 13px;
+
+    top: -12px;
+ 
+}
+.cc_1{
+    position: absolute;
+    top: 150%;
+    left: 0;
+    list-style-type: none;
+    padding-left: 0;
+    background-color: #ccc;
+    font-size: 14px;
+    color: white;
+    margin-left: 20px;
+    display: none;
+}
+#container ul>li>a {
+    color: rgb(192, 26, 109);
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    left: 20%;
+}
+
+nav {
+    background-color: white;
+    width: 100%;
+    height: 60px;
+}
+
+article {
+    width: 100%;
+}
+
+article>aside {
+    height: 100%;
+    animation-name: asas;
+    animation-duration: 10s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+aside {
+    border: #000 solid 1px;
+    width: 25%;
+    margin: 3px 3px;
+    float: left;
+    height: 100%;
+}
+
+aside>div {
+    margin: 5px;
+}
+
+aside>div>ul>li {
+    list-style-image: url(../images/list.jpg);
+}
+
+aside>div>ul>li>a {
+    text-decoration: none;
+}
+
+footer {
+    height: 120px;
+    width: 100%;
+    clear: both;
+    animation-name: backgroundColorP;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+footer div>ul>li {
+    float: right;
+    color: pink;
+    padding: 0 20px;
+    list-style-type: none;
+}
+
+footer div>ul>li>a {
+    text-decoration: none;
+    background-color: #66ff66;
+}
+
+footer div>ul>li>a>p {
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.lag {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F62682;
+}
+.chan {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container header>.anh>img {
+    width: 89%;
+    height: 450px;
+}
+
+.product>.anh>img {
+    width: 85%;
+    height: 330px
+}
+
+.product {
+  
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+
+
+#q {
+    font-size: 20px;
+    font-weight: bold;
+    color: #F62682;
+}
+
+.product>.cart-shop>.p-h>.pp>.pp1>a>img {
+    width: 95%;
+    height: 200px;
+    transition: transform 1s;
+}
+
+.product>.cart-shop>.p-h>.pp>.pp1>a {
+    text-decoration: none;
+}
+
+.product>.cart-shop>.p-h>.pp>.pp1 {
+    display: inline-block;
+    padding: 0 20px;
+    background-color: #669999;
+    background-image: linear-gradient( -80deg, #66ff66, #ffcccc, #66ffff, #B5B5B5, #FFFACD);
+    background-size: 400% 400%;
+    animation: gradient 7s ease infinite;
+    margin-bottom: 10px;
+}
+
+.pp1 {
+    text-align: center;
+    width: 30%;
+    padding: 0px 5px;
+}
+
+.pp1 h1 {
+    font-size: 12px;
+    margin-top: 16px;
+    color: #333;
+}
+
+.pp1 p {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.pp{
+    display: flex;
+    flex-wrap: wrap;
+}
+.button {
+    display: inline-block;
+    padding: 15px 30px;
+    color: rgb(39, 33, 33);
+    background-color: transparent;
+    border: none;
+    outline: none;
+    transition: all 0.5s linear;
+}
+
+.button:hover {
+    width: 40%;
+    color: #6633CC;
+    background-color: #FFFFCC;
+}
+
+.product>.cart-shop>.p-h>.pp>.pp1>a>img:hover {
+    transform: scale(1.2);
+}
+
+.product>.cart-shop>.p-h>.pp>.pp1 {
+    overflow: hidden;
+}
